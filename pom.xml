@@ -10,6 +10,12 @@
 	<name>matchdemo</name>
 	<description>tamr Match Demo App</description>
 	
+	
+	 <scm>
+    <developerConnection>scm:git:https://github.com/jeffellin/matchdemo/</developerConnection>
+  </scm>
+  
+  
 	 <modules>
     	<module>matchdemo-web</module>
     	<module>field-common</module>
@@ -96,6 +102,14 @@
         <noDeploy>true</noDeploy>
     </configuration>
 </plugin>
+<plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.2</version>
+        <configuration>
+          <tagNameFormat>v@{project.version}</tagNameFormat>
+        </configuration>
+      </plugin>
         </plugins>
 
     </build>
