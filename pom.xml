@@ -4,7 +4,7 @@
 
 	<groupId>com.tamr.field</groupId>
 	<artifactId>matchdemo</artifactId>
-	<version>0.0.5-SNAPSHOT</version>
+	<version>0.0.5</version>
 	<packaging>pom</packaging>
 
 	<name>matchdemo</name>
@@ -13,6 +13,7 @@
 	
 	 <scm>
     <developerConnection>scm:git:https://github.com/jeffellin/matchdemo/</developerConnection>
+    <tag>v0.0.5</tag>
   </scm>
   
   
