@@ -12,9 +12,17 @@
 	
 	
 	 <scm>
+	 <connection>scm:git:https://github.com/jeffellin/matchdemo/</connection>
+	 <url>scm:git:https://github.com/jeffellin/matchdemo/</url>
     <developerConnection>scm:git:https://github.com/jeffellin/matchdemo/</developerConnection>
   </scm>
   
+   <distributionManagement>
+  	<repository>
+  		<id>maven-repository</id>
+  		<url>${github.maven.repository}</url>
+  	</repository>
+  </distributionManagement>
   
 	 <modules>
     	<module>matchdemo-web</module>
@@ -31,6 +39,9 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.8</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<github.maven.repository>file:\\Users\jellin\tmp</github.maven.repository>
+  
 	</properties>
 
 	<dependencies>
