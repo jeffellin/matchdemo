@@ -14,8 +14,8 @@
 	 <scm>
 	 <connection>scm:git:https://github.com/jeffellin/matchdemo/</connection>
 	 <url>scm:git:https://github.com/jeffellin/matchdemo/</url>
-    <developerConnection>scm:git:https://github.com/jeffellin/matchdemo/</developerConnection>
-  </scm>
+     <developerConnection>scm:git:https://github.com/jeffellin/matchdemo/</developerConnection>
+   </scm>
   
    <distributionManagement>
   	<repository>
